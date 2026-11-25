@@ -1,0 +1,49 @@
+artifact_path: /home/devhimal/Projects/kingscollege/applied-ml/mlartifacts/credit-default-risk/models/m-45ef61181cd84532a4620fc87996652c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-45ef61181cd84532a4620fc87996652c
+model_size_bytes: 8059
+model_uuid: m-45ef61181cd84532a4620fc87996652c
+prompts: null
+run_id: 103feef8524f41eebd179626b94b34ba
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "limit_bal", "required": true}, {"type": "double",
+    "name": "age", "required": true}, {"type": "double", "name": "pay_0", "required":
+    true}, {"type": "double", "name": "pay_2", "required": true}, {"type": "double",
+    "name": "pay_3", "required": true}, {"type": "double", "name": "pay_4", "required":
+    true}, {"type": "double", "name": "pay_5", "required": true}, {"type": "double",
+    "name": "pay_6", "required": true}, {"type": "double", "name": "bill_amt1", "required":
+    true}, {"type": "double", "name": "bill_amt2", "required": true}, {"type": "double",
+    "name": "bill_amt3", "required": true}, {"type": "double", "name": "bill_amt4",
+    "required": true}, {"type": "double", "name": "bill_amt5", "required": true},
+    {"type": "double", "name": "bill_amt6", "required": true}, {"type": "double",
+    "name": "pay_amt1", "required": true}, {"type": "double", "name": "pay_amt2",
+    "required": true}, {"type": "double", "name": "pay_amt3", "required": true}, {"type":
+    "double", "name": "pay_amt4", "required": true}, {"type": "double", "name": "pay_amt5",
+    "required": true}, {"type": "double", "name": "pay_amt6", "required": true}, {"type":
+    "double", "name": "sex", "required": true}, {"type": "double", "name": "education",
+    "required": true}, {"type": "double", "name": "marriage", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-25 03:47:17.842440'

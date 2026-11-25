@@ -1,0 +1,46 @@
+{
+  "assumptions": {
+    "cost_false_negative": 5.0,
+    "cost_false_positive": 1.0,
+    "review_capacity_fraction": 0.3
+  },
+  "best_unconstrained": {
+    "threshold": 0.16,
+    "flag_rate": 0.3904444444444444,
+    "precision": 0.39214570290267503,
+    "recall": 0.6924623115577889,
+    "f1": 0.5007267441860465,
+    "false_positives": 1068,
+    "false_negatives": 306,
+    "true_positives": 689,
+    "cost_per_account": 0.5773333333333334,
+    "cost_per_1000_accounts": 577.3333333333334,
+    "within_capacity": false
+  },
+  "best_within_capacity": {
+    "threshold": 0.22,
+    "flag_rate": 0.2975555555555556,
+    "precision": 0.44660194174757284,
+    "recall": 0.6010050251256281,
+    "f1": 0.5124250214224507,
+    "false_positives": 741,
+    "false_negatives": 397,
+    "true_positives": 598,
+    "cost_per_account": 0.6057777777777777,
+    "cost_per_1000_accounts": 605.7777777777778,
+    "within_capacity": true
+  },
+  "selected": {
+    "threshold": 0.22,
+    "flag_rate": 0.2975555555555556,
+    "precision": 0.44660194174757284,
+    "recall": 0.6010050251256281,
+    "f1": 0.5124250214224507,
+    "false_positives": 741,
+    "false_negatives": 397,
+    "true_positives": 598,
+    "cost_per_account": 0.6057777777777777,
+    "cost_per_1000_accounts": 605.7777777777778,
+    "within_capacity": true
+  }
+}

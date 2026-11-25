@@ -1,0 +1,43 @@
+{
+  "name": "Default of Credit Card Clients",
+  "urn": "uci:350",
+  "source_url": "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip",
+  "dataset_page": "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients",
+  "doi": "10.24432/C55S3H",
+  "license": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+  "citation": "Yeh, I. (2009). Default of Credit Card Clients [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C55S3H",
+  "retrieved_at_utc": "2026-11-25T03:42:52.696130+00:00",
+  "raw_archive": {
+    "path": "data/raw/default_of_credit_card_clients.zip",
+    "bytes": 5539494,
+    "md5": "4fc9f7278533d4f40e0b9dcc1c0a40f8"
+  },
+  "raw_csv": {
+    "path": "data/raw/credit_card_default_raw.csv",
+    "bytes": 2867208,
+    "md5": "b4bf11c60a1b7b3298a1bb20d7f5ae05"
+  },
+  "processed_csv": {
+    "path": "data/processed/credit_card_default_clean.csv",
+    "bytes": 2698303,
+    "md5": "05ee385e113b570445aa15c87cd3dfab"
+  },
+  "raw_shape": [
+    30000,
+    25
+  ],
+  "processed_shape": [
+    30000,
+    24
+  ],
+  "target": "default_next_month",
+  "target_distribution": {
+    "0": 23364,
+    "1": 6636
+  },
+  "notes": [
+    "Raw CSV is an unmodified table conversion of the .xls file inside the official UCI archive.",
+    "Processed data rewrites column names, drops ID, collapses undocumented EDUCATION/MARRIAGE codes, and retains all rows."
+  ],
+  "duplicate_feature_rows": 56
+}
